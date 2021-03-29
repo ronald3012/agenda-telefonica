@@ -1,0 +1,30 @@
+div.listado{
+    color: #fff;
+    min-width: 70%;
+    max-width: 98%;
+}
+div.listado > div{
+    display: flex;
+}
+ul{
+    list-style: none;
+    color: #fff;
+    padding-left: 0;
+}
+ul > li{
+    padding: 10px;
+    box-shadow: 0 0 2px;
+    margin: 10px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    animation: entrada .3s linear;
+}
+.acciones{
+    padding: 10px 5px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    width: 100px;
+    margin: 5px;
+}

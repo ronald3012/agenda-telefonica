@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(45deg, black, rebeccapurple);
+}
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    min-height: 100vh;
+}
+header{
+    background: linear-gradient(45deg, rebeccapurple, #351752);
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 3px 4px -3px #bfbfbf;
+    display: flex;
+    justify-content: center;
+}
+
+.col {
+    min-width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+button,
+input[type='submit'] {
+    background: linear-gradient(320deg, #ff00eb, #00ffdc);
+    text-transform: uppercase;
+}
+img{
+    width: 50px;
+    line-height: 40px;
+}
+footer{
+    position: fixed;
+    bottom: 5px;
+    left: 0;
+    color: #1de2de;
+}
+a{
+    color: #1de2de;
+    text-decoration: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 10s linear;
+    }
+  }
+
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  
+  @keyframes entrada{
+    from {
+      transform: scale(0);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .contenedor{
+        padding: 0;
+    }
+  }
