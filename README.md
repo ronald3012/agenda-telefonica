@@ -19,7 +19,7 @@ yarn start o npm start
 ```
 
 ## Desarrollador
-[Ronald De Leon](https://choosealicense.com/licenses/mit/)
+[Ronald De Leon](https://www.linkedin.com/in/ronald-de-le%C3%B3n-780489197/)
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
